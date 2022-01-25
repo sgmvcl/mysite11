@@ -12,13 +12,29 @@
 
 ### create a table of contents 
 \toc
+
 ### upload using GitHub desktop
 
 # Examples
 ### how to enter text
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus suscipit augue sed euismod. Proin laoreet convallis nisi, sed aliquet mi tincidunt sit amet. Vivamus maximus augue nec est pretium cursus vitae sed mi. Aenean vestibulum malesuada mattis. Phasellus metus neque, varius quis tincidunt porttitor, bibendum vel enim. Curabitur vitae imperdiet sapien, ut pretium ante. Suspendisse quam nisi, tristique vel tincidunt non, accumsan et libero. In varius enim sit amet vulputate vulputate. Suspendisse sed quam vitae lacus suscipit imperdiet vehicula sit amet est. Mauris nisl ipsum, auctor non odio nec, maximus tempor ex.
 
-Donec ac magna tincidunt, bibendum diam vel, consectetur eros. Fusce eu ullamcorper libero. Nunc tempus metus in nulla tempor ullamcorper. Nam eget mauris eget mi pretium sollicitudin. Vivamus tincidunt vitae mauris a hendrerit. Vivamus dapibus elit semper mauris dictum, nec scelerisque massa scelerisque. Etiam ultrices ut sapien vitae fermentum. Nunc imperdiet, leo varius imperdiet molestie, quam orci sollicitudin enim, ac pharetra nulla elit sit amet velit. Fusce imperdiet euismod lacinia. Suspendisse fermentum dui id ex mattis, vel porttitor odio congue. Nullam vel mi odio. Ut accumsan sagittis quam, eu tincidunt dui ultrices a. Nullam eleifend massa non egestas commodo. Praesent pellentesque purus tellus, nec sollicitudin nisi egestas aliquet.
+### how to render math equations
+
+$$ \bar{x} = \frac{1}{n} \Bigg(\sum_{i=1}^{n} x_i \Bigg) = \frac{x_1 + x_2 + \cdots + x_n}{n} $$ #
+
+$$ s = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (x_i - \bar{x})^2} $$ #
+
+$$
+    M = 
+        \begin{bmatrix}
+            \begin{aligned}
+                &2 & &1 & -&1 \space \\
+                \space -&3 & -&1 & &2 \\
+                -&2 & &1 & &2
+            \end{aligned}
+        \end{bmatrix}
+$$
 
 <!-- # Franklin syntax sandbox
 
