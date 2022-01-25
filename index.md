@@ -36,6 +36,75 @@ $$
         \end{bmatrix}
 $$
 
+### how to insert Julia code with outputs
+Hello world!
+
+```julia:./ex15
+println("Hello world!")
+```
+
+\show{./ex15}
+
+Basic Math
+
+```julia:./ex56
+4^3
+```
+\show{./ex56}
+
+Create Function
+
+```julia:./ex17
+function add(x, y)
+    x + y
+end
+```
+
+\show{./ex17}
+
+Call Function
+
+```julia:./ex20
+add(2, 7)
+```
+
+\show{./ex20}
+
+Random Numbers
+
+```julia:./ex15
+rand(5, 5)
+```
+
+\show{./ex15}
+
+### how to insert a table from csv file
+World´s population:
+\tableinput{}{./tableinput/exampletable.csv}
+
+@@source
+Source: Wiki
+@@
+
+### how to insert an image file
+![GDP to debt ratio](/assets/GDP_to_debt_ratio.png)
+
+### how to insert a clickable thumbnail to a youtube video
+[![YT](https://img.youtube.com/vi/ey7DqMbkxj4/0.jpg)](https://youtu.be/ey7DqMbkxj4)
+
+### how to inject raw HTML
+~~~
+<iframe width="1080" height="720" src="https://www.youtube.com/embed/ey7DqMbkxj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+~~~
+
+
+<!-- Earthquakes stronger than mag 6 since 2000:
+\tableinput{}{./tableinput/query_USGS.csv}
+
+@@source
+Source: USGS
+@@ -->
+
 <!-- # Franklin syntax sandbox
 
 This page is meant as a sandbox for Franklin Syntax so that you can quickly practice or experience things.
